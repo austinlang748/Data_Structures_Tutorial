@@ -114,13 +114,13 @@ def erosion(crust):
 # Display the number of layers and the surface material
 form_layers(crust)
 print(f"The crust has {len(crust)} layers.")
-print(f"The surface material is {crust[len(crust - 1)]}.")
+print(f"The surface material is {crust[len(crust) - 1]}.")
 
 # Erode layers
 # Display the new number of layers and the new surface material
 erosion(crust)
-print(f"After erosion, the crust has {len(crust)} layers.")
-print(f"Now, the surface material is {crust[len(crust - 1)]}.")
+print(f"\nAfter erosion, the crust has {len(crust)} layers.")
+print(f"Now, the surface material is {crust[len(crust) - 1]}.")
 ```  
 
 You should copy this code into your python editor and run it. Try making changes and experiment with the code to verify your understanding. 
