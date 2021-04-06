@@ -67,10 +67,10 @@ It was mentioned before that stacks can be implemented in Python with a Python l
 
 Stack Operation | Python Code            | Description
 ----------------|------------------------|------------
-push(value)     | my_stack.append(value) | Adds "value" to the back of the stack.
-pop()           | value = my_stack.pop() | Removes and returns the item from the back of the stack.
-size()          | length = len(my_stack) | Return the size of the stack.
-empty()         | if len(my_stack) == 0: | Returns true if the length of the stack is zero.
+push(value)     | my_stack.append(value) | Adds "value" to the back of the stack
+pop()           | value = my_stack.pop() | Removes and returns the item from the back of the stack
+size()          | length = len(my_stack) | Return the size of the stack
+empty()         | if len(my_stack) == 0: | Returns true if the length of the stack is zero
 
 ## Example
 Now, we will go over a simple Python program which uses stacks to simulate the forming and erosion of layers in the earth's crust. First we should identify some requirements:  

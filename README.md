@@ -17,6 +17,7 @@
 3. ### Sets
     *  	Introduction
     *  	Uniqueness principle
+    *   Hashing
     *  	Common uses and efficiency
     *  	Implementing sets in Python
     *  	Example

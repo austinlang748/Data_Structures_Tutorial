@@ -20,6 +20,7 @@ class Text():
 
     def display_text(self):
         """Display the text in the document in a user-friendly format."""
+        
         if len(self.text) >= 1:
             for text_element in self.text:
                 print(text_element, end = " ")
