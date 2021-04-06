@@ -1,9 +1,9 @@
 # Trees
-TODO: add intro
 
-## Linked Lists Overview
 
 ## Overall Structure
+
+## Linked Lists Overview
 
 ## Common Uses and Efficiency
 

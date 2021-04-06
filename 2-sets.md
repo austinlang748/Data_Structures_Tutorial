@@ -156,7 +156,7 @@ while True:
 
 Note the use of Python's `add()`, `remove()`, and `in` set operations. Also note the code `if "y" in input(...)` which we have used before, and which you should now recognize as a set operation.
 
-## Problem to Solve
+## Problem to Solve - Wildlife Survey
 Now, let's build off the progress we made in the previous example. You must build a program with the following functionality:
 
 * Allow the user to specify the class (mammal, bird, fish, reptile, amphibian)
@@ -172,6 +172,6 @@ Here is some sample output:
 
 ![wildlife_survey_sample_output](wildlife_survey_sample_output.png)  
 
-When you are done, please compare your code to a possible solution in [wildlife_survey.py](wildlife_survey.py).
+When you are done, please compare your code to a possible solution [here](wildlife_survey.py).
 
 [Return to Welcome Page](0-welcome.md)

@@ -25,8 +25,8 @@
 
 4. ### Trees
     *  	Introduction
+    *   Overall structure
     *  	Linked lists overview
-    *  	Overall structure
     *  	Common uses and efficiency
     *  	Operations (lookup, traversal, etc.)
     *  	Example

@@ -154,7 +154,7 @@ def test_runner():
     txt_doc.display_text() # "Stacks are awesome!  "
 ```  
 
-When you are done, please compare your code to a possible solution in [undo.py](undo.py). 
+When you are done, please compare your code to a possible solution [here](undo.py). 
 
 
 [Return to Welcome Page](0-welcome.md)
