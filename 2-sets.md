@@ -1,5 +1,5 @@
 # Sets
-TODO: add intro
+
 
 ## Uniqueness Principle
 

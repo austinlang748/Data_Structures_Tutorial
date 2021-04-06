@@ -80,7 +80,7 @@ Now, we will go over a simple Python program which uses stacks to simulate the f
 * Write a function to simulate erosion by removing some layers from the crust.
 * Display the number of layers and the surface material before and after erosion.  
 
-Below is a solution to this problem, which uses three stack operations in Python: `crust.append("layer name")`, `crust.pop()`, and `len(crust)`
+Below is a solution to this problem, which uses three stack operations in Python: `crust.append("layer name")`, `crust.pop()`, and `len(crust)`.
 
 ```python
 # Create a Python list. This will be our stack. 
@@ -125,9 +125,36 @@ print(f"Now, the surface material is {crust[len(crust) - 1]}.")
 
 You should copy this code into your python editor and run it. Try making changes and experiment with the code to verify your understanding. 
 
-## Problem to Solve  
-To test your understanding of stacks and their implementation in Python, try solving this programming problem. 
+## Problem to Solve - Implementing the "Undo" Feature
+To test your understanding of stacks and their implementation in Python, try solving the following programming problem.  
 
+Your task is to create an object to represent a text document. This should be an object of a class called "Text" which you must create, and it must have methods which allow the user to do the following:
+
+1. Display the cuurent text
+2. Add additional text
+3. Undo the most recent addition
+
+Of course, the actual data structure being used in this container is a stack, and the methods will make use of stack behavior and will require you to use the Python stack operations `append()`, `pop()`, and `len()`.  
+
+You may use the following test runner function to exercise your Text class:  
+
+```Python
+def test_runner():
+    txt_doc = Text()
+    txt_doc.display_text() # Empty
+    txt_doc.undo() # "'undo' operation failed"
+    txt_doc.add_text("Stacks are awesome!")
+    txt_doc.display_text() # "Stacks are awesome! "
+    txt_doc.add_text("They are really useful.")
+    txt_doc.add_text("They are easy to learn.")
+    txt_doc.display_text() # "Stacks are awesome! They are really useful. They are easy to learn."
+    txt_doc.undo()
+    txt_doc.display_text() # "Stacks are awesome! They are really useful. "
+    txt_doc.undo()
+    txt_doc.display_text() # "Stacks are awesome!  "
+```  
+
+When you are done, please compare your code to a possible solution in [undo.py](undo.py). 
 
 
 [Return to Welcome Page](0-welcome.md)
