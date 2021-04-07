@@ -94,6 +94,9 @@ while True:
         if len(set_name) >= 1:
             input_species = get_species()
             set_name.remove(input_species)
+            # Remember to remove the species name from all_seen if it's already there
+            if input_species in all_seen:
+                all_seen.remove(input_species)
             print(f"'{input_species}' has been removed.")
         else:
             print("ERROR: can't remove from an empty set.")

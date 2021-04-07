@@ -26,8 +26,7 @@
 4. ### Trees
     *  	Introduction
     *   Overall structure
-    *  	Linked lists overview
-    *  	Common uses and efficiency
-    *  	Operations (lookup, traversal, etc.)
+    *  	Recursion in BST operations
+    *   Implementation in Python
     *  	Example
     *  	Problem to Solve
