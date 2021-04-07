@@ -1,5 +1,5 @@
 # Trees
-Trees are more complex mannifestations of linked lists, being composed of nodes which are connected by pointers. Unlike linked lists, nodes in trees can connect to multiple other nodes, forming a tree-like structure. There are multiple types of trees, such as the **binary tree**, the **binary search tree (BST)**, and the **balanced binary search tree**. Among these, the BST and balanced BST are of the most interest to us. 
+Trees are more complex manifestations of linked lists, being composed of nodes which are connected by pointers. Unlike linked lists, nodes in trees can connect to multiple other nodes, forming a tree-like structure. There are multiple types of trees, such as the **binary tree**, the **binary search tree (BST)**, and the **balanced binary search tree**. Among these, the BST and balanced BST are of the most interest to us. 
 
 We will discuss common tree operations, the efficiency of these operations, and how to implement trees in Python. 
 
